@@ -1,0 +1,96 @@
+.small-hero{
+    display: none;
+}
+.large-hero{
+    position: relative;
+    overflow: hidden;
+}
+.large-hero--nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin-right: -28px;
+}
+.large-hero--nav ul{
+    margin: 0;
+    padding: 0;
+}
+.large-hero--nav li{
+    list-style: none;
+    float: left;
+    margin-right: 28px;
+}
+.about-menu,
+.portfolio-menu,
+.resume-menu,
+.currently-menu{
+    text-decoration: none;
+    color: #7A7A7A;
+    display: block;
+}
+body.index a.about-menu{
+    color: black;
+}
+
+.about-menu:hover,
+.portfolio-menu:hover,
+.resume-menu:hover,
+.currently-menu:hover{
+    position: relative;
+    color: black;
+}
+.large-hero--nav li:hover{
+    transform: translateY(3px);
+    transition: transform 220ms ease-in-out;
+}
+
+
+
+@media screen and (max-width: 520px) {
+    
+
+    .wrapper--565{
+        display: none;
+    }
+    .large-hero{
+        display: none;
+    }
+    .small-hero{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .small-hero .kjk-logo{
+        padding: 20px;
+    }
+    .small-hero li{
+        list-style: none;
+        float: left;
+        width: 24%;
+        text-align: center;
+    }
+    .border-right{
+        border-right: 1px solid grey;
+    }
+    .border-left{
+        border-left: 1px solid grey;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .border-right{
+        border-right: 0;
+    }
+    .border-left{
+        border-left: 0;
+    }     
+
+}
+
+@media screen and (max-width: 370px) {
+    .small-hero li{
+        font-size: 1rem;
+    }   
+
+}

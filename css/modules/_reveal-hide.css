@@ -1,0 +1,21 @@
+/* Reveal and Hide Styles */
+
+.toggle-btn{
+    display: none;
+    text-decoration: none;
+}
+.toggle-btn:hover{
+    cursor: pointer;
+}
+.toggle-btn img{
+    display: block;
+}
+.toggle-btn-visible{
+    display: block;
+}
+.toggle-target-hidden{
+    display: none;
+}
+.toggle-target-expanded{
+    display: block;
+}

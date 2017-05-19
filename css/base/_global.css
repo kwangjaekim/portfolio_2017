@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*全体-----------------------------------------*/
+*{
+	/*border:1px solid red;*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-family: 'futura_md_btmedium_italic';
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 1rem;
+}
+
+/*--clearfix--*/
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
