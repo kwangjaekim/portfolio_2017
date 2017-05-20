@@ -1,0 +1,21 @@
+.currently-introduction-p{
+    line-height: 1.4rem;
+    text-indent: 2rem;
+}
+.currently-description-1{
+    font-size:1rem;
+    font-family: 'futura_md_btmedium_italic';
+    line-height: 1.4375rem;
+}
+.currently-description-2{
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.currently-description-3{
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding-top: 10px;
+    line-height: 1.1875rem;
+}
+

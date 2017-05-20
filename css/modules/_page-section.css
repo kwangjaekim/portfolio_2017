@@ -4,12 +4,20 @@
 .page-section-40{
     padding-top: 40px;
 }
+.page-section-50{
+    padding-top: 50px;
+}
+.page-section-25{
+    padding-top: 25px;
+}
 .page-section-20{
     padding-top: 20px;
 }
 .bottom-padding-80{
     padding-bottom: 80px;
 }
+
+/*--ABOUT PAGE under 520 PX --*/
 
 @media screen and (max-width: 520px){
     

@@ -47,6 +47,8 @@
     line-height: 1.4rem;
 }
 
+/*--ABOUT PAGE under 520 PX --*/
+
 @media screen and (max-width: 520px){
     
     .content-container--about-extra-info-text{
@@ -58,4 +60,46 @@
         padding: 10px 0 10px 0;
         text-align: center;
     }
+}
+
+
+
+/*--CURRENTLY PAGE--*/
+
+.content-container--currently-img-text{
+    margin-top:8px;
+    font-family: 'futura_md_btmedium_italic';
+    font-size: 1.3rem;
+}
+.content-container--currently-img-text img{
+    padding-right: 20px;
+    float: left;
+}
+.content-container--currently-img-text p{
+    padding-top: 10px;
+}
+.content-container--currently-img-text2{
+    margin-top:8px;
+    font-family: 'futura_md_btmedium_italic';
+    font-size: 1.3rem;
+}
+.content-container--currently-img-text2 img{
+    padding-right: 20px;
+    float: left;
+}
+.content-container--currently-img-text2 p{
+    padding-top: 16px;
+}
+
+/*--CURRENTLY PAGE under 520 PX --*/
+
+@media screen and (max-width: 520px) {
+ 
+    .content-container--currently-img-text{
+        display:block;
+    }
+    .content-container--currently-img-text2{
+        display: block;
+    }
+    
 }

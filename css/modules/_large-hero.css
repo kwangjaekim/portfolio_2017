@@ -12,6 +12,12 @@
     box-sizing: border-box;
     margin-right: -28px;
 }
+img.about-menu-adjustment{
+    max-width:55px;
+}
+img.currently-menu-adjustment{
+    max-width: 81px;
+}
 .large-hero--nav ul{
     margin: 0;
     padding: 0;
@@ -32,6 +38,9 @@
 body.index a.about-menu{
     color: black;
 }
+body.currently a.currently-menu{
+    color: black;
+}
 
 .about-menu:hover,
 .portfolio-menu:hover,
@@ -46,6 +55,7 @@ body.index a.about-menu{
 }
 
 
+/*--ABOUT, CURRENTLY PAGE under 520 PX --*/
 
 @media screen and (max-width: 520px) {
     
