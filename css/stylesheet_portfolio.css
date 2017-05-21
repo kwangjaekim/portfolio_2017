@@ -77,7 +77,7 @@ img.hover-tag-btmright{
 
 /*--PORTFOLIO PAGE under 520 PX --*/
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 780px) {
     
     .portfolio-introduction-p{
         text-indent: 0;
@@ -100,14 +100,14 @@ img.hover-tag-btmright{
     img.hover-tag-btmright{
         opacity: 1;
     }
+}
+@media screen and (max-width: 450px) {
     .column-container-50{
         float: none;
         width: 100%;
         height: auto;
     }
-
 }
-
 @media screen and (max-width: 370px) {
     .portfolio-introduction-p{
         text-indent: 0;
