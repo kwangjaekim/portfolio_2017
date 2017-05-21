@@ -18,6 +18,9 @@ img.about-menu-adjustment{
 img.currently-menu-adjustment{
     max-width: 81px;
 }
+img.portfolio-menu-adjustment{
+    max-width: 78px;
+}
 .large-hero--nav ul{
     margin: 0;
     padding: 0;
@@ -39,6 +42,9 @@ body.index a.about-menu{
     color: black;
 }
 body.currently a.currently-menu{
+    color: black;
+}
+body.portfolio a.portfolio-menu{
     color: black;
 }
 
