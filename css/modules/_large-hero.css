@@ -21,6 +21,9 @@ img.currently-menu-adjustment{
 img.portfolio-menu-adjustment{
     max-width: 78px;
 }
+img.resume-menu-adjustment{
+    max-width: 66px;
+}
 .large-hero--nav ul{
     margin: 0;
     padding: 0;
@@ -47,7 +50,9 @@ body.currently a.currently-menu{
 body.portfolio a.portfolio-menu{
     color: black;
 }
-
+body.resume a.resume-menu{
+    color: black;
+}
 .about-menu:hover,
 .portfolio-menu:hover,
 .resume-menu:hover,
@@ -85,6 +90,18 @@ body.portfolio a.portfolio-menu{
         float: left;
         width: 24%;
         text-align: center;
+    }
+    img.about-menu-adjustment-small{
+        max-width: 42px;
+    }
+    img.portfolio-menu-adjustment-small{
+        max-width: 60px;
+    }
+    img.resume-menu-adjustment-small{
+        max-width: 51px;
+    }
+    img.currently-menu-adjustment-small{
+        max-width: 63px;
     }
     .border-right{
         border-right: 1px solid grey;
