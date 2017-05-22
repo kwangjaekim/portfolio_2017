@@ -20,6 +20,12 @@
     margin-right: auto;
     max-width: 726px;
 }
+.wrapper--600{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
 .wrapper--565{
     max-width: 565px;
     padding-left: 8px;
@@ -31,6 +37,30 @@
     max-width: 565px;
     padding-left: 8px;
     padding-right: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper--557{
+    max-width: 557px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper--557-resume-center{
+    text-align: center;
+    transform: scale(.7);
+    position: absolute;
+    top: -50px;
+}
+.wrapper--557-resume-center-surveyor,
+.wrapper--557-resume-center-carpenter{
+    text-align: center;
+    transform: scale(.7);
+    position: absolute;
+    top: -65px;
+}
+.wrapper--557-resume{
+    position: relative;
+    max-width: 557px;
     margin-left: auto;
     margin-right: auto;
 }

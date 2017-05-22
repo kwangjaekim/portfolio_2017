@@ -38,3 +38,52 @@
     font-family: 'futura_md_btmedium_italic';
     font-size: 0.875rem;
 }
+.resume-education-carpentry,
+.resume-education-college{
+    border-bottom: 3px solid #F46139;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.resume-education-carpentry img{
+    width: 145px;
+    height: auto;
+}
+.resume-education-college img{
+    height: 134px;
+    width: auto;
+}
+.resume-container-380{
+    max-width: 360px;
+    float: left;
+}
+.resume-container-177{
+    max-width: 177px;
+    float: right;
+}
+.resume-container-177 img{
+    width: 145px;
+    height: auto;
+}
+.resume-designer-container{
+    position: relative;
+}
+.resume-photo-description{
+    position: relative;
+    height: 38px;
+}
+.resume-description-header,
+.resume-projects-header,
+.resume-skills-header{
+    font-family: 'futura_md_btmedium_italic';
+}
+.resume-description-content{
+    text-indent: 2rem;
+}
+.resume-project-skill-content{
+    max-width: 525px;
+    margin-left: 2rem;
+    margin-right: auto;
+}
+.resume-project-skill-content span{
+    padding-left: 36px;
+}

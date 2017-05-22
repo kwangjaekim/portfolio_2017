@@ -10,17 +10,30 @@
 .page-section-50{
     padding-top: 50px;
 }
+.page-section-35{
+    padding-top: 35px;
+}
 .page-section-25{
     padding-top: 25px;
 }
 .page-section-20{
     padding-top: 20px;
 }
+.page-section-15{
+    padding-top: 15px;
+}
 .bottom-padding-80{
     padding-bottom: 80px;
 }
 .bottom-padding-30{
     padding-bottom: 30px;
+}
+.bottom-padding-25-border{
+    padding-bottom: 25px;
+    border-bottom: 3px solid #F46139;
+}
+.bottom-padding-20{
+    padding-bottom: 20px;
 }
 
 /*--ABOUT PAGE under 520 PX --*/
