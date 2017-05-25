@@ -151,6 +151,10 @@
 
 @media screen and (max-width: 880px) {
     
+    
+    .wrapper{
+        padding-left: 0;
+    }
     .under_880{
         display: block;
         padding-left: 18px;
@@ -220,7 +224,8 @@
  
     .education-item-455,
     .work_experience-item-455{
-        max-width: 320px;
+        max-width: 100%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         
@@ -229,7 +234,8 @@
     .resume-column-4-designer,
     .resume-column-4-surveyor,
     .resume-column-4-carpenter{
-        max-width: 320px;
+        max-width: 100%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
