@@ -84,7 +84,9 @@ img.hover-tag-btmright{
         text-align: center;
     }
     
-
+    body.portfolio .page-section-60{
+        padding-top: 40px;   
+    }
     img.hover-tag-btmleft{
         opacity: 1;
     }
@@ -111,7 +113,8 @@ img.hover-tag-btmright{
         text-align: center;
     }
     
-  
+    body.portfolio .page-section-60{
+        padding-top: 20px;   
     }
     
 }

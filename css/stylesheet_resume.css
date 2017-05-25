@@ -180,15 +180,16 @@
  
     .education-item-455,
     .work_experience-item-455{
-        max-width: 350px;
+        max-width: 290px;
         margin-left: auto;
         margin-right: auto;
+        
     }
     .resume-column-4,
     .resume-column-4-designer,
     .resume-column-4-surveyor,
     .resume-column-4-carpenter{
-        max-width: 350px;
+        max-width: 290px;
         margin-left: auto;
         margin-right: auto;
         float: none;
