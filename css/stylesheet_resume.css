@@ -19,6 +19,9 @@
     float: left;
     width: 10px;
 }
+.resume-column-1:hover{
+    cursor: pointer;
+}
 .resume-column-2{
     float: left;
     text-align: center;
@@ -27,13 +30,22 @@
 .resume-column-3{
     float: left;    
     width: 210px;
-
 }
-.resume-column-4{
+.resume-column-4,
+.resume-column-4-designer,
+.resume-column-4-surveyor,
+.resume-column-4-carpenter{
     float: left;
     width: 453px;
     padding-left: 30px;
 }
+
+.resume-column-4-designer-hidden,
+.resume-column-4-surveyor-hidden,
+.resume-column-4-carpenter-hidden{
+    display: none;
+}
+
 .resume-title{
     font-family: 'futura_md_btmedium_italic';
     font-size: 0.875rem;
@@ -43,6 +55,7 @@
     border-bottom: 3px solid #F46139;
     justify-content: space-between;
     padding-bottom: 25px;
+    
 }
 .resume-education-carpentry img{
     width: 145px;
@@ -55,6 +68,9 @@
 .resume-container-380{
     max-width: 360px;
     float: left;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.375rem;
 }
 .resume-container-177{
     max-width: 177px;
@@ -64,10 +80,15 @@
     width: 145px;
     height: auto;
 }
-.resume-designer-container{
+.resume-designer-container,
+.resume-surveyor-container,
+.resume-carpenter-container{
     position: relative;
 }
 .resume-photo-description{
+    width: 557px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     height: 38px;
 }
@@ -83,7 +104,85 @@
     max-width: 525px;
     margin-left: 2rem;
     margin-right: auto;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.375rem;
+    padding-top: 10px;
 }
 .resume-project-skill-content span{
     padding-left: 36px;
 }
+.show-carpenter,
+.show-surveyor,
+.show-designer,
+.show-shokugei,
+.show-pratt{
+    display: none;
+}
+
+.toggle-btn-pratt-visible,
+.toggle-btn-carpenter-visible{
+    display: inline-block;
+    color: blue;
+}
+.toggle-btn-pratt-visible:hover,
+.toggle-btn-carpenter-visible:hover{
+    cursor: pointer;
+}
+.toggle-btn-pratt-hidden{
+    display: none;
+}
+.toggle-btn-pratt-2-hidden{
+    display: none;
+}
+.toggle-btn-pratt-2-visible{
+    display: inline-block;
+}
+
+
+.under_880{
+    display: none;
+}
+
+
+
+
+/*--RESUME PAGE under 880 PX --*/
+
+@media screen and (max-width: 880px) {
+    
+    .under_880{
+        display: block;
+    }
+    .over_880{
+        display: none;
+    }
+    .education-item-455,
+    .work_experience-item-455{
+        max-width: 455px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume-column-4,
+    .resume-column-4-designer,
+    .resume-column-4-surveyor,
+    .resume-column-4-carpenter{
+        max-width: 455px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    
+    
+}
+
+/* .resume-column-4,
+.resume-column-4-designer,
+.resume-column-4-surveyor,
+.resume-column-4-carpenter{
+    float: left;
+    width: 453px;
+    padding-left: 30px;
+} */

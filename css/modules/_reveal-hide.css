@@ -1,21 +1,24 @@
-/* Reveal and Hide Styles */
+/* Reveal and Hide Styles in About Page - index.html */
 
-.toggle-btn{
-    display: none;
-    text-decoration: none;
+
+.toggle-btn-about-text{
+    display: inline-block;
 }
-.toggle-btn:hover{
+.toggle-btn-about-text:hover{
     cursor: pointer;
 }
-.toggle-btn img{
-    display: block;
-}
-.toggle-btn-visible{
-    display: block;
-}
-.toggle-target-hidden{
+.toggle-btn-about-text-hidden{
     display: none;
 }
-.toggle-target-expanded{
-    display: block;
+
+
+
+.toggle-btn-about-text-2-hidden{
+    display: none;
+}
+.toggle-btn-about-text-2{
+    display: inline-block;
+}
+.toggle-btn-about-text-2:hover{
+    cursor: pointer;
 }

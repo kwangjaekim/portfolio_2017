@@ -1,0 +1,14 @@
+.toggle-btn-shokugei-open,
+.toggle-btn-pratt-open,
+.toggle-btn-designer-open,
+.toggle-btn-surveyor-open,
+.toggle-btn-carpenter-open{
+    transform: rotate(90deg);
+    transition: transform .5 ease-out;
+}
+
+.toggle-btn-about-open{
+    transform: rotate(90deg);
+    transform-origin: 20%;
+    transition: all .5 ease-out;
+}
