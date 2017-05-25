@@ -152,9 +152,7 @@
 @media screen and (max-width: 880px) {
     
     
-    .wrapper{
-        padding-left: 0;
-    }
+
     .under_880{
         display: block;
         padding-left: 18px;
