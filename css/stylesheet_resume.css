@@ -153,6 +153,8 @@
     
     .under_880{
         display: block;
+        padding-left: 18px;
+        padding-right: 18px;
     }
     .over_880{
         display: none;
@@ -174,13 +176,51 @@
         padding-left: 0;
         margin-top: 10px;
     }
+    .show-shokugei,
+    .show-pratt{
+        text-align: center;
+    }
+    .wrapper--600{
+        max-width: 100%;
+        height: auto;
+    }
+    
 }
+
+@media screen and (max-width: 550px) {
+    
+    .resume-container-380{
+        max-width: 455px;
+        float: none;
+    }
+    .resume-container-177{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume-container-177 img{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .resume-photo-description{
+        display: none;
+    }
+    .wrapper--557-resume,
+    .wrapper--557{
+        max-width: 455px;
+        height: auto;
+    }
+}
+
+
+
 
 @media screen and (max-width: 500px) {
  
     .education-item-455,
     .work_experience-item-455{
-        max-width: 290px;
+        max-width: 320px;
         margin-left: auto;
         margin-right: auto;
         
@@ -189,13 +229,16 @@
     .resume-column-4-designer,
     .resume-column-4-surveyor,
     .resume-column-4-carpenter{
-        max-width: 290px;
+        max-width: 320px;
         margin-left: auto;
         margin-right: auto;
         float: none;
         padding-left: 0;
         margin-top: 10px;
     }
+    
+
+
     
 }
 
