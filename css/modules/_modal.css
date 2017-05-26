@@ -6,8 +6,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    transform: scale(1.2);
     transition: all .3s ease-out;
+}
+.modal img{
+    max-width: 100%;
+    height: auto;
 }
 .modal--is-visible{
     opacity: 1;
@@ -15,10 +18,7 @@
     transform: scale(1);
 }
 .modal__inner{
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
+
     text-align: center;
 }
 .modal__close{
