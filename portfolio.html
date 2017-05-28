@@ -53,10 +53,10 @@
         <div class="wrapper--780 clearfix bottom-padding-80">
             <div class="column-container-50">
                 <div class="project-block">
-                    <a><img id="myImg" class="main" src="images/portfolio-thumb-ecobridge-980.png"><img class="hover-tag-btmleft"  src="images/icons/portfolio-thumb-hover-web-btmleft.png"></a>
+                    <a><img onclick="document.getElementbyId('ecobridge-portfolio').style.display='block'" class="main" src="images/portfolio-thumb-ecobridge-980.png"><img class="hover-tag-btmleft"  src="images/icons/portfolio-thumb-hover-web-btmleft.png"></a>
                 </div>
                 <div class="project-block">
-                    <a href="#"><img id="myImg" class="main" src="images/portfolio-thumb-animaruisu-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-web-upright.png"></a>
+                    <a href="#"><img onclick="document.getElementById('animaru-isu-portfolio').style.display='block'" class="main" src="images/portfolio-thumb-animaruisu-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-web-upright.png"></a>
                 </div>
                 <div class="project-block">
                     <a href="#"><img class="main" src="images/portfolio-thumb-villagehouse-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-banners-upleft.png"></a>
@@ -88,12 +88,17 @@
         
         
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div id="ecobridge-portfolio" class="modal">
             <!-- The Close Button -->    
-            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <span class="close" onclick="document.getElementById('ecobridge-portfolio').style.display='none'">&times;</span>
             <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01">
-
+            <img class="modal-content" src="images/carpentry-02-resume-hi-dpi.jpg">
+        </div>
+        <div id="animaru-isu-portfolio" class="modal">
+            <!-- The Close Button -->    
+            <span class="close" onclick="document.getElementById('animaru-isu-portfolio').style.display='none'">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" src="images/carpentry-01-resume-hi-dpi.jpg">
         </div>
 
     <script type="text/javascript" src="js/modal.js"></script>    

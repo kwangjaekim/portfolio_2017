@@ -1,16 +1,15 @@
 // Get the modal
 
-var modal = document.getElementById('myModal');
+var modal-eco = document.getElementById('ecobridge-portfolio');
+
+var modal-animaru = document.getElementById('animaru-isu-portfolio');
 
 
-// Get the image and insert it inside the modal
-
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
+var img = document.getElementsByClassName("main");
 
 img.onclick = function() {
-    modal.style.display = "block";
-    modalImg.src = this.src;
+    modal-eco.style.display = "block";
+    
 }
 
 // Get the span element that closes the modal
