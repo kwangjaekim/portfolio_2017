@@ -1,29 +1,34 @@
-class Modal{
-    constructor() {
-        this.openModalButton = $(".open-modal");
-        this.modal = $(".modal");
-        this.closeModalButton = $(".modal__close");
-        this.events();
-    }
-    events() {
-        //clicking the open modal button
-        this.openModalButton.click(this.openModal.bind(this));
-        //clicking the X close modal button
-        this.closeModalButton.click(this.closeModal.bind(this));
-        //pushes any key
-        $(document).keyup(this.keyPressHandler.bind(this));
-    }
-    keyPressHandler(e) {
-        if (e.keyCode == 27) {
-            this.closeModal();
-        }
-    }
-    openModal() {
-        this.modal.addClass("modal--is-visible");
-        return false;
-    }
-    closeModal() {
-        this.modal.removeClass("modal--is-visible");
+// Get the modal
+
+var modal = document.getElementById('myModal');
+
+
+// Get the image and insert it inside the modal
+
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+}
+
+// Get the span element that closes the modal
+
+var span = document.getElementsByClassName("close")[0];
+
+
+// When user clicks on span (x), close the modal
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+// When user clicks anywhere outside of the modal, close it
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
 }
-export default Modal;
