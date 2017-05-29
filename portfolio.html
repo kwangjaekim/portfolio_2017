@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/stylesheet_portfolio.css">
         <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
-        <!--<script type="text/javascript" src="js/jquery.js"></script>-->
+        <script type="text/javascript" src="js/jquery.js"></script>
 
     </head>
 
@@ -59,28 +59,27 @@
                     <img class="main" src="images/portfolio-thumb-animaruisu-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-web-upright.png">
                 </div>
                 <div class="project-block">
-                    <a href="#"><img class="main" src="images/portfolio-thumb-villagehouse-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-banners-upleft.png"></a>
+                    <img class="main" src="images/portfolio-thumb-villagehouse-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-banners-upleft.png">
                 </div>
                 <div class="project-block">
-                    <a href="#"><img class="main" src="images/portfolio-thumb-satomega-980.png"><img class="hover-tag-btmright" src="images/icons/portfolio-thumb-hover-illust-btmright.png"></a>
+                    <img class="main" src="images/portfolio-thumb-satomega-980.png"><img class="hover-tag-btmright" src="images/icons/portfolio-thumb-hover-illust-btmright.png">
                 </div>
             </div><!--end column-container-50-->
             <div class="column-container-50">
                 <div class="project-block">
-                    <a href="#">
-                    <img class="main" src="images/portfolio-thumb-adjustincafe-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-web-upleft.png"></a>
+                    <img class="main" src="images/portfolio-thumb-adjustincafe-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-web-upleft.png">
                 </div>
                 <div class="project-block">
-                    <a href="#"><img class="main" src="images/portfolio-thumb-clearviewescapes-980.jpg"><img class="hover-tag-btmright" src="images/icons/portfolio-thumb-hover-web-btmright.png"></a>
+                    <img class="main" src="images/portfolio-thumb-clearviewescapes-980.jpg"><img class="hover-tag-btmright" src="images/icons/portfolio-thumb-hover-web-btmright.png">
                 </div>
                 <div class="project-block">
-                    <a href="#"><img class="main" src="images/portfolio-thumb-ajf-980.png"><img class="hover-tag-btmleft" src="images/icons/portfolio-thumb-hover-banners-btmleft.png"></a>
+                    <img class="main" src="images/portfolio-thumb-ajf-980.png"><img class="hover-tag-btmleft" src="images/icons/portfolio-thumb-hover-banners-btmleft.png">
                 </div>
                 <div class="project-block">
-                    <a href="#"><img class="main" src="images/portfolio-thumb-tilldeathdousapart-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-illust-upright.png"></a>
+                    <img class="main" src="images/portfolio-thumb-tilldeathdousapart-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-illust-upright.png">
                 </div>
                 <div class="project-block">
-                    <a href="#"><img class="main" src="images/portfolio-thumb-wo-man-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-illust-upleft.png"></a>
+                    <img class="main" src="images/portfolio-thumb-wo-man-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-illust-upleft.png">
                 </div>
             </div><!--end column-container-50-->
         </div>
@@ -92,21 +91,35 @@
             <!-- The Close Button -->    
             <span class="close" onclick="document.getElementById('ecobridge-portfolio').style.display='none'">&times;</span>
             <!-- Modal Content (The SlideShowImages) -->
+            
+            <div class="ecobridge-modal-description clearfix">
+                <div class="modal-column-1 toggle-btn-ecobridge">
+                    <img src="images/icons/arrow-static-orange.png">
+                </div>
+                <div class="modal-column-2">
+                    <p class="modal-header">Corporate Site</p>
+                    <p>Designing | Coding in XHTML / CSS / JS</p>
+                </div>
+                <div class="modal-column-3">
+                    <p><strong>Duration:</strong> 52 hours, 2 revisions.<br><strong>Programs Used:</strong> Adobe Illustrator cs5 / Photoshop cs5</p>
+                </div>
+            </div>
+            <div class="ecobridge-modal-description-detail">
+                <p>A Recruiting Page for a mockup Energy and Environmental Consultant Agency.<br><a href="#">Go to Page</a></p>
+            </div>
             <div class="slideshow-container">
                 <div class="slides">
                     <div class="numbertext">1/2</div>
-                    <img class="modal-content" src="images/carpentry-02-resume-hi-dpi.jpg">
-                    <div class="text">Caption Text</div>
+                    <img class="modal-content" src="images/ecobridge-1190-hi-dpi.jpg">
+                    <div class="text">1st and half of 2nd Page Views of Eco Bridge Website</div>
                 </div>
                 <div class="slides">
                     <div class="numbertext">2/2</div>
                     <img class="modal-content" src="images/carpentry-01-resume-hi-dpi.jpg">
                     <div class="text">Caption Text</div>
                 </div>
-            </div>
-            <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
         <div id="animaru-isu-portfolio" class="modal">
@@ -117,5 +130,6 @@
         </div>
 
     <script type="text/javascript" src="js/modal.js"></script>
+    <script type="text/javascript" src="js/portfolio-modal-toggle.js"></script>
     </body>
 </html>

@@ -16,29 +16,24 @@
     top: 0;
     left: 0;
 }
-.project-block a{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.project-block a:hover img.main{
+.project-block:hover img.main{
     transform: scale(0.98);
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
     transition: all 250ms ease-in-out;
 }
-.project-block a:hover img.hover-tag-btmleft{
+.project-block:hover img.hover-tag-btmleft{
     opacity: 1;
     transition: opacity 250ms ease-in-out;
 }
-.project-block a:hover img.hover-tag-upleft{
+.project-block:hover img.hover-tag-upleft{
     opacity: 1;
     transition: opacity 250ms ease-in-out;
 }
-.project-block a:hover img.hover-tag-upright{
+.project-block:hover img.hover-tag-upright{
     opacity: 1;
     transition: opacity 250ms ease-in-out;
 }
-.project-block a:hover img.hover-tag-btmright{
+.project-block:hover img.hover-tag-btmright{
     opacity: 1;
     transition: opacity 250ms ease-in-out;
 }
