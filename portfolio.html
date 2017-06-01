@@ -59,10 +59,10 @@
                 <div class="project-block" onclick="document.getElementById('animaru-isu-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-animaruisu-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-web-upright.png">
                 </div>
-                <div class="project-block">
+                <div class="project-block" onclick="document.getElementById('village-house-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-villagehouse-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-banners-upleft.png">
                 </div>
-                <div class="project-block">
+                <div class="project-block" onclick="document.getElementById('sato-mega-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-satomega-980.png"><img class="hover-tag-btmright" src="images/icons/portfolio-thumb-hover-illust-btmright.png">
                 </div>
             </div><!--end column-container-50-->
@@ -73,20 +73,20 @@
                 <div class="project-block" onclick="document.getElementById('clear-view-escapes-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-clearviewescapes-980.jpg"><img class="hover-tag-btmright" src="images/icons/portfolio-thumb-hover-web-btmright.png">
                 </div>
-                <div class="project-block">
+                <div class="project-block" onclick="document.getElementById('ajf-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-ajf-980.png"><img class="hover-tag-btmleft" src="images/icons/portfolio-thumb-hover-banners-btmleft.png">
                 </div>
-                <div class="project-block">
+                <div class="project-block" onclick="document.getElementById('till-death-do-us-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-tilldeathdousapart-980.png"><img class="hover-tag-upright" src="images/icons/portfolio-thumb-hover-illust-upright.png">
                 </div>
-                <div class="project-block">
+                <div class="project-block" onclick="document.getElementById('wo-man-portfolio').style.display='block'">
                     <img class="main" src="images/portfolio-thumb-wo-man-980.png"><img class="hover-tag-upleft" src="images/icons/portfolio-thumb-hover-illust-upleft.png">
                 </div>
             </div><!--end column-container-50-->
         </div>
         
         
-        
+        <!-- MODALS BEGIN HERE -->
         <!-- Eco Bridge Modal -->
         <div id="ecobridge-portfolio" class="modal">
             <!-- The Close Button -->    
@@ -106,16 +106,25 @@
                 </div>
             </div>
             <div class="modal-description-detail">
-                <p>A Recruiting Page for a mockup Energy and Environmental Consultant Agency.<br><a href="#">Go to Page</a></p>
+                <p>A Recruiting Page for a mockup Energy and Environmental Consultant Agency.<br><a href="http://adjustacademy.com/1609/160910/EB01" target="_blank">Go to Page</a></p>
             </div>
             <div class="slideshow-container">
-                <div class="slides">
-                    <div class="numbertext">1/2</div>
-                    <img src="images/ecobridge-1190-hi-dpi.jpg">
-                    <div class="text">1st and half of 2nd Page Views of Eco Bridge Website</div>
+                <div class="eco-bridge-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/ecobridge-1190-hi-dpi.jpg">
                 </div>
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
+                <div class="eco-bridge-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img src="images/portfolio-ecobridge-hi-dpi.jpg">
+                </div>
+                <a class="prev" onclick="plusDivs1(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs1(+1)">&#10095;</a>
             </div>
         </div>
         
@@ -139,18 +148,28 @@
                 </div>
             </div>
             <div class="modal-description-detail">
-                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
+                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="http://adjustacademy.com/1609/160910/animaruisu" target="_blank">Go to Page</a></p>
             </div>
             <div class="slideshow-container">
-                <div class="slides">
-                    <div class="numbertext">1/2</div>
-                    <img src="images/animaru-1190-hi-dpi.jpg">
-                    <div class="text">1st and half of 2nd Page Views of Eco Bridge Website</div>
+                <div class="animaru-isu-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website.</div>
+                    </div>
+                    <img class="slides-images" src="images/animaru-1190-hi-dpi.jpg">
                 </div>
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
+                <div class="animaru-isu-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website.</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-animaruisu-980.png">
+                </div>
+                <a class="prev" onclick="plusDivs2(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs2(+1)">&#10095;</a>
             </div>
         </div>
+        
         
         <!-- ADJUSTIN CAFE Modal -->
         <div id="adjustin-cafe-portfolio" class="modal">
@@ -171,18 +190,28 @@
                 </div>
             </div>
             <div class="modal-description-detail">
-                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
+                <p>A Mockup Franchise Cafe for Creator's looking for a Franchise Owner<br><a href="http://adjustacademy.com/1609/160910/CA01" target="_blank">Go to Page</a></p>
             </div>
             <div class="slideshow-container">
-                <div class="slides">
-                    <div class="numbertext">1/2</div>
-                    <img src="images/cafeadjustin-1190-hi-dpi.jpg">
-                    <div class="text">1st and half of 2nd Page Views of Eco Bridge Website</div>
+                <div class="adjustin-cafe-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/cafeadjustin-1190-hi-dpi.jpg">
                 </div>
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
+                <div class="adjustin-cafe-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-adjustincafe-980.png">
+                </div>
+                <a class="prev" onclick="plusDivs3(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs3(+1)">&#10095;</a>
             </div>
         </div>
+        
         
         <!-- CLEAR VIEW ESCAPES Modal -->
         <div id="clear-view-escapes-portfolio" class="modal">
@@ -203,16 +232,235 @@
                 </div>
             </div>
             <div class="modal-description-detail">
+                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="https://kwangjaekim.github.io/travel-site" target="_blank">Go to Page</a></p>
+            </div>
+            <div class="slideshow-container">
+                <div class="clear-view-escapes-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/ClearViewEscapes-1190-hi-dpi.jpg">
+                </div>
+                <div class="clear-view-escapes-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-clearviewescapes-980.jpg">
+                </div>
+                <a class="prev" onclick="plusDivs4(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs4(+1)">&#10095;</a>
+            </div>
+        </div>
+        
+        
+        <!-- VILLAGE HOUSE Modal -->
+        <div id="village-house-portfolio" class="modal">
+            <!-- The Close Button -->    
+            <span class="close" onclick="document.getElementById('village-house-portfolio').style.display='none'">&times;</span>
+            <!-- Modal Content (The SlideShowImages) -->
+            
+            <div class="modal-description clearfix">
+                <div class="modal-column-1 toggle-btn">
+                    <img src="images/icons/arrow-static-orange.png">
+                </div>
+                <div class="modal-column-2">
+                    <p class="modal-header">Web Store</p>
+                    <p>Designing | Coding in HTML5 / CSS3 / JS</p>
+                </div>
+                <div class="modal-column-3">
+                    <p><strong>Duration:</strong> 52 hours, 2 revisions.<br><strong>Programs Used:</strong> Adobe Illustrator cs5 / Photoshop cs5</p>
+                </div>
+            </div>
+            <div class="modal-description-detail">
                 <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
             </div>
             <div class="slideshow-container">
-                <div class="slides">
-                    <div class="numbertext">1/2</div>
-                    <img src="images/ClearViewEscapes-1190-hi-dpi.jpg">
-                    <div class="text">1st and half of 2nd Page Views of Eco Bridge Website</div>
+                <div class="village-house-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-village-house.png">
                 </div>
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
+                <div class="village-house-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-village-house.png">
+                </div>
+                <a class="prev" onclick="plusDivs5(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs5(+1)">&#10095;</a>
+            </div>
+        </div>
+        
+        
+        <!--  AJF Modal -->
+        <div id="ajf-portfolio" class="modal">
+            <!-- The Close Button -->    
+            <span class="close" onclick="document.getElementById('ajf-portfolio').style.display='none'">&times;</span>
+            <!-- Modal Content (The SlideShowImages) -->
+            
+            <div class="modal-description clearfix">
+                <div class="modal-column-1 toggle-btn">
+                    <img src="images/icons/arrow-static-orange.png">
+                </div>
+                <div class="modal-column-2">
+                    <p class="modal-header">Web Store</p>
+                    <p>Designing | Coding in HTML5 / CSS3 / JS</p>
+                </div>
+                <div class="modal-column-3">
+                    <p><strong>Duration:</strong> 52 hours, 2 revisions.<br><strong>Programs Used:</strong> Adobe Illustrator cs5 / Photoshop cs5</p>
+                </div>
+            </div>
+            <div class="modal-description-detail">
+                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
+            </div>
+            <div class="slideshow-container">
+                <div class="ajf-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-ajf.png">
+                </div>
+                <div class="ajf-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-ajf.png">
+                </div>
+                <a class="prev" onclick="plusDivs6(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs6(+1)">&#10095;</a>
+            </div>
+        </div>
+        
+        
+        <!--  SATO-MEGA Modal -->
+        <div id="sato-mega-portfolio" class="modal">
+            <!-- The Close Button -->    
+            <span class="close" onclick="document.getElementById('sato-mega-portfolio').style.display='none'">&times;</span>
+            <!-- Modal Content (The SlideShowImages) -->
+            
+            <div class="modal-description clearfix">
+                <div class="modal-column-1 toggle-btn">
+                    <img src="images/icons/arrow-static-orange.png">
+                </div>
+                <div class="modal-column-2">
+                    <p class="modal-header">Web Store</p>
+                    <p>Designing | Coding in HTML5 / CSS3 / JS</p>
+                </div>
+                <div class="modal-column-3">
+                    <p><strong>Duration:</strong> 52 hours, 2 revisions.<br><strong>Programs Used:</strong> Adobe Illustrator cs5 / Photoshop cs5</p>
+                </div>
+            </div>
+            <div class="modal-description-detail">
+                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
+            </div>
+            <div class="slideshow-container">
+                <div class="sato-mega-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-satomega-980.png">
+                </div>
+                <div class="sato-mega-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-satomega-980.png">
+                </div>
+                <a class="prev" onclick="plusDivs7(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs7(+1)">&#10095;</a>
+            </div>
+        </div>
+        
+        
+        <!--  TILL-DEATH-DO-US Modal -->
+        <div id="till-death-do-us-portfolio" class="modal">
+            <!-- The Close Button -->    
+            <span class="close" onclick="document.getElementById('till-death-do-us-portfolio').style.display='none'">&times;</span>
+            <!-- Modal Content (The SlideShowImages) -->
+            
+            <div class="modal-description clearfix">
+                <div class="modal-column-1 toggle-btn">
+                    <img src="images/icons/arrow-static-orange.png">
+                </div>
+                <div class="modal-column-2">
+                    <p class="modal-header">Web Store</p>
+                    <p>Designing | Coding in HTML5 / CSS3 / JS</p>
+                </div>
+                <div class="modal-column-3">
+                    <p><strong>Duration:</strong> 52 hours, 2 revisions.<br><strong>Programs Used:</strong> Adobe Illustrator cs5 / Photoshop cs5</p>
+                </div>
+            </div>
+            <div class="modal-description-detail">
+                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
+            </div>
+            <div class="slideshow-container">
+                <div class="till-death-do-us-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-tilldeathdousapart-980.png">
+                </div>
+                <div class="till-death-do-us-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-tilldeathdousapart-980.png">
+                </div>
+                <a class="prev" onclick="plusDivs8(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs8(+1)">&#10095;</a>
+            </div>
+        </div>
+        
+        
+        <!--  WO-MAN Modal -->
+        <div id="wo-man-portfolio" class="modal">
+            <!-- The Close Button -->    
+            <span class="close" onclick="document.getElementById('wo-man-portfolio').style.display='none'">&times;</span>
+            <!-- Modal Content (The SlideShowImages) -->
+            
+            <div class="modal-description clearfix">
+                <div class="modal-column-1 toggle-btn">
+                    <img src="images/icons/arrow-static-orange.png">
+                </div>
+                <div class="modal-column-2">
+                    <p class="modal-header">Web Store</p>
+                    <p>Designing | Coding in HTML5 / CSS3 / JS</p>
+                </div>
+                <div class="modal-column-3">
+                    <p><strong>Duration:</strong> 52 hours, 2 revisions.<br><strong>Programs Used:</strong> Adobe Illustrator cs5 / Photoshop cs5</p>
+                </div>
+            </div>
+            <div class="modal-description-detail">
+                <p>A Web Store for a Woodworker providing Handmade Kid's Animal Chairs from Japan.<br><a href="#">Go to Page</a></p>
+            </div>
+            <div class="slideshow-container">
+                <div class="wo-man-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">1/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-wo-man-980.png">
+                </div>
+                <div class="wo-man-slides">
+                    <div class="slides-description clearfix">
+                        <div class="numbertext">2/2</div>
+                        <div class="text"><span>&darr;</span>1st and half of 2nd Page Views of Eco Bridge Website</div>
+                    </div>
+                    <img class="slides-images" src="images/portfolio-thumb-wo-man-980.png">
+                </div>
+                <a class="prev" onclick="plusDivs9(-1)">&#10094;</a>
+                <a class="next" onclick="plusDivs9(+1)">&#10095;</a>
             </div>
         </div>
         
