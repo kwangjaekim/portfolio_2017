@@ -73,6 +73,14 @@
     width: 85%;
     max-width: 700px;
 }
+.slides-images-no-border {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+    width: 85%;
+    max-width: 700px;
+}
 
 .active-slide {
     display: block;
