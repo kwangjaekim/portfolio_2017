@@ -95,6 +95,7 @@ img.hover-tag-btmright{
         opacity: 1;
     }
 }
+
 @media screen and (max-width: 450px) {
     .column-container-50{
         float: none;

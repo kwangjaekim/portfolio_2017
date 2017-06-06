@@ -141,3 +141,12 @@
 .modal-column-3{
     float: right;    
 }
+
+
+
+
+@media screen and (max-width: 730px) {
+    modal{
+        
+    }
+}
