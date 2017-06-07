@@ -6,11 +6,25 @@
 .toggle-btn-surveyor-open,
 .toggle-btn-carpenter-open{
     transform: rotate(90deg);
-    transition: transform .5 ease-out;
+    transition: transform 300ms ease-in-out;
+}
+
+.toggle-btn,
+.toggle-btn-ecobridge,
+.toggle-btn-shokugei,
+.toggle-btn-pratt,
+.toggle-btn-designer,
+.toggle-btn-surveyor,
+.toggle-btn-carpenter{
+    transition: all 300ms ease-in-out;
 }
 
 .toggle-btn-about-open{
     transform: rotate(90deg);
     transform-origin: 20%;
-    transition: all .5 ease-out;
+    transition: all 300ms ease-in-out;
+}
+
+.toggle-btn-about{
+    transition: all 300ms ease-in-out;
 }
