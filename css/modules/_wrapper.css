@@ -73,3 +73,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+.wrapper--portfolio{
+    padding-left: 18px;
+    padding-right: 18px;
+}

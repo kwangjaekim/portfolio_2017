@@ -46,6 +46,10 @@
     margin-top: 15px;
     display: none;
 }
+.modal-description-detail a{
+    text-decoration: none;
+    color: blue;
+}
 .modal-header{
     font-family: 'futura_md_btmedium_italic';
     font-size: 0.875rem;
@@ -137,6 +141,7 @@
 }
 .modal-column-2{
     float: left;
+    width: 260px;
 }
 .modal-column-3{
     float: right;    
@@ -145,8 +150,48 @@
 
 
 
-@media screen and (max-width: 730px) {
-    modal{
-        
+@media screen and (max-width: 660px) {
+    .modal-column-2{
+        width: 350px;
+    }
+    
+    .modal-column-3{
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .numbertext{
+        padding-right: 5px;
+        float: left;
+    }
+    .text{
+        float: none;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .slideshow-container{
+        margin-top: 25px;
+    }
+    .slides-description span{
+    padding-right: 5px;
+    }
+    
+}
+@media screen and (max-width: 485px) {
+    .prev,
+    .next{
+    padding: 5px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .modal-column-2{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .modal-column-2{
+        width: 250px;
     }
 }
