@@ -122,10 +122,11 @@
 
 /* Number text (1/2 etc) */
 .numbertext {
-  color: black;
-  font-size: 0.85rem;
-  float: left;
+    color: black;
+    font-size: 0.85rem;
+    float: left;
     padding-right: 33px;
+    font-weight: bold;
 }
 
 /* -- -- */
