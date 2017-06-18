@@ -1,1 +1,1 @@
-# portfolio_2017
+# Kwang Jae (KJ) Kim's Portfolio_2017

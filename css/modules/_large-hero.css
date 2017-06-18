@@ -41,18 +41,13 @@ img.resume-menu-adjustment{
     color: #7A7A7A;
     display: block;
 }
-body.index a.about-menu{
-    color: black;
-}
-body.currently a.currently-menu{
-    color: black;
-}
-body.portfolio a.portfolio-menu{
-    color: black;
-}
+body.index a.about-menu,
+body.currently a.currently-menu,
+body.portfolio a.portfolio-menu,
 body.resume a.resume-menu{
     color: black;
 }
+
 .about-menu:hover,
 .portfolio-menu:hover,
 .resume-menu:hover,

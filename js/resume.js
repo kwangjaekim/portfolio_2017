@@ -1,110 +1,61 @@
 $(document).ready(function(){
+    
+    // Education -- Carpentry
+    
     $(".toggle-btn-shokugei").click(function(){
-        $(".show-shokugei").slideToggle('400');
+        $(".show-shokugei").slideToggle('400'),
+        $(this).toggleClass('toggle-btn-shokugei-open');
     });
-});
-$(function(){
-    $('.toggle-btn-shokugei').on('click', function(){
-        $(this).toggleClass('toggle-btn-shokugei-open')
-    });
-});
-
-
-
-
-/*------*/
-
-$(document).ready(function(){
-    $(".toggle-btn-pratt").click(function(){
-        $(".show-pratt").slideToggle('400');
-    });
-});
-$(function(){
-    $('.toggle-btn-pratt').on('click', function(){
-        $(this).toggleClass('toggle-btn-pratt-open')
-    });
-});
-$(function(){
-    $('.toggle-btn-pratt').on('click', function(){
-        $(".toggle-btn-pratt-visible").toggleClass('toggle-btn-pratt-hidden'),
-        $(".toggle-btn-pratt-2-hidden").toggleClass('toggle-btn-pratt-2-visible')
-    });
-});
-
-$(document).ready(function(){
-    $(".toggle-btn-pratt-visible").click(function(){
-        $(".show-pratt").slideToggle('400');
-    });
-});
-$(function(){
-    $('.toggle-btn-pratt-visible').on('click', function(){
-        $(".toggle-btn-pratt").toggleClass('toggle-btn-pratt-open')
-    });
-});
-$(function(){
-    $('.toggle-btn-pratt-visible').on('click', function(){
-        $(this).toggleClass('toggle-btn-pratt-hidden'),
-        $(".toggle-btn-pratt-2-hidden").toggleClass('toggle-btn-pratt-2-visible')
-    });
-});
-
 
     
-/*------*/
+    // Education -- University
+    
+    $(".toggle-btn-pratt").click(function(){
+        $(".show-pratt").slideToggle('400'),
+        $(this).toggleClass('toggle-btn-pratt-open'),
+        $(".toggle-btn-pratt-visible").toggleClass('toggle-btn-pratt-hidden'),
+        $(".toggle-btn-pratt-2-hidden").toggleClass('toggle-btn-pratt-2-visible');
+    });
+    
+    
+    $(".toggle-btn-pratt-visible").click(function(){
+        $(".show-pratt").slideToggle('400'),
+        $(".toggle-btn-pratt").toggleClass('toggle-btn-pratt-open'),
+        $(this).toggleClass('toggle-btn-pratt-hidden'),
+        $(".toggle-btn-pratt-2-hidden").toggleClass('toggle-btn-pratt-2-visible');
+    });    
 
-$(document).ready(function(){
+
+    // Work Experience -- Designer
+    
     $(".toggle-btn-designer").click(function(){
         $(".show-designer").slideToggle('400'),
-        $(".resume-column-4-designer").toggleClass('resume-column-4-designer-hidden');
+        $(".resume-column-4-designer").toggleClass('resume-column-4-designer-hidden'),
+        $(this).toggleClass('toggle-btn-designer-open');
     });
-});
-$(function(){
-    $('.toggle-btn-designer').on('click', function(){
-        $(this).toggleClass('toggle-btn-designer-open')
-    });
-});
-
-
-
-
-
-/*------*/
-$(document).ready(function(){
+    
+    
+    // Work Experience -- Surveyor
+    
     $(".toggle-btn-surveyor").click(function(){
         $(".show-surveyor").slideToggle('400'),
-        $(".resume-column-4-surveyor").toggleClass('resume-column-4-surveyor-hidden');
+        $(".resume-column-4-surveyor").toggleClass('resume-column-4-surveyor-hidden'),
+        $(this).toggleClass('toggle-btn-surveyor-open');
     });
-});
-$(function(){
-    $('.toggle-btn-surveyor').on('click', function(){
-        $(this).toggleClass('toggle-btn-surveyor-open')
-    });
-});
-
-
-
-
-
-/*------*/
-$(document).ready(function(){
+    
+    
+    // Work Experience -- Carpenter
+        
     $(".toggle-btn-carpenter").click(function(){
         $(".show-carpenter").slideToggle('400'),
-        $(".resume-column-4-carpenter").toggleClass('resume-column-4-carpenter-hidden');
+        $(".resume-column-4-carpenter").toggleClass('resume-column-4-carpenter-hidden'),
+        $(this).toggleClass('toggle-btn-carpenter-open');
     });
-});
-$(function(){
-    $('.toggle-btn-carpenter').on('click', function(){
-        $(this).toggleClass('toggle-btn-carpenter-open')
-    });
-});
-$(document).ready(function(){
+        
     $(".toggle-btn-carpenter-visible").click(function(){
         $(".show-carpenter").slideToggle('400'),
-        $(".resume-column-4-carpenter").toggleClass('resume-column-4-carpenter-hidden');    
+        $(".resume-column-4-carpenter").toggleClass('resume-column-4-carpenter-hidden'),
+        $(".toggle-btn-carpenter").toggleClass('toggle-btn-carpenter-open');
     });
-});
-$(function(){
-    $('.toggle-btn-carpenter-visible').on('click', function(){
-        $(".toggle-btn-carpenter").toggleClass('toggle-btn-carpenter-open')
-    });
+
 });

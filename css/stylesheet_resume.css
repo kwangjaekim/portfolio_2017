@@ -5,24 +5,19 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .resume-columns{
     font-size: 0.875rem;
     font-weight: 300;
     line-height: 1.375rem;
 }
-.hide{
-    opacity: 0;
-}
-.resume-column-1-hide,
+.resume-column-1-school,
 .resume-column-1{
     float: left;
     width: 10px;
 }
-.resume-column-1-hide{
+.resume-column-1-school{
     text-align: center;
 }
-
 .resume-column-1:hover{
     cursor: pointer;
 }
@@ -43,13 +38,11 @@
     width: 453px;
     padding-left: 30px;
 }
-
 .resume-column-4-designer-hidden,
 .resume-column-4-surveyor-hidden,
 .resume-column-4-carpenter-hidden{
     display: none;
 }
-
 .resume-title{
     font-family: 'futura_md_btmedium_italic';
     font-size: 0.875rem;
@@ -58,8 +51,7 @@
 .resume-education-college{
     border-bottom: 3px solid #F46139;
     justify-content: space-between;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;   
 }
 .resume-education-carpentry img{
     width: 145px;
@@ -123,7 +115,6 @@
 .show-pratt{
     display: none;
 }
-
 .toggle-btn-pratt-visible,
 .toggle-btn-carpenter-visible{
     display: inline-block;
@@ -142,21 +133,15 @@
 .toggle-btn-pratt-2-visible{
     display: inline-block;
 }
-
-
 .under_880{
     display: none;
 }
-
-
 
 
 /*--RESUME PAGE under 880 PX --*/
 
 @media screen and (max-width: 880px) {
     
-    
-
     .under_880{
         display: block;
         padding-left: 18px;
@@ -190,7 +175,6 @@
         max-width: 100%;
         height: auto;
     }
-    
 }
 
 @media screen and (max-width: 550px) {
@@ -219,9 +203,6 @@
     }
 }
 
-
-
-
 @media screen and (max-width: 500px) {
  
     .education-item-455,
@@ -230,9 +211,7 @@
         height: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-    
-    
+    }    
     .resume-column-4,
     .resume-column-4-designer,
     .resume-column-4-surveyor,
@@ -242,10 +221,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
-
-
-    
 }
 
 @media screen and (max-width: 433px) {
@@ -253,5 +228,4 @@
     .resume-column-3{
         padding-top: 15px;
     }
-    
 }

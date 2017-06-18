@@ -85,6 +85,7 @@ function showDivs4(j) {
 }
 
 
+
 // Village House Modal Slides using numbers mno
 
 var slideIndex5 = 1;
@@ -104,6 +105,8 @@ function showDivs5(m) {
     }
     o[slideIndex5-1].style.display = "block";
 }
+
+
 
 // AJF Modal Slides using numbers pqr
 
@@ -125,6 +128,8 @@ function showDivs6(p) {
     r[slideIndex6-1].style.display = "block";
 }
 
+
+
 // SatoMega Modal Slides using numbers stu
 
 var slideIndex7 = 1;
@@ -144,6 +149,8 @@ function showDivs7(s) {
     }
     u[slideIndex7-1].style.display = "block";
 }
+
+
 
 // Till Death Do Us Slides using numbers vwx
 
@@ -166,6 +173,7 @@ function showDivs8(v) {
 }
 
 
+
 // Wo-Man Slides using numbers yzA
 
 var slideIndex9 = 1;
@@ -186,6 +194,28 @@ function showDivs9(y) {
     A[slideIndex9-1].style.display = "block";
 }
 
+
+
+
+// hw2018 Slides using numbers BCD
+
+var slideIndex10 = 1;
+    showDivs10(slideIndex10);
+
+function plusDivs10(B) {
+    showDivs10(slideIndex10 += B);
+}
+
+function showDivs10(B) {
+    var C;
+    var D = document.getElementsByClassName("hw2018-slides");
+    if (B > D.length) {slideIndex10 = 1}
+    if (B < 1) {slideIndex10 = D.length} ;
+    for (C = 0; C < D.length; C++) {
+        D[C].style.display = "none";
+    }
+    D[slideIndex10-1].style.display = "block";
+}
 
 
 

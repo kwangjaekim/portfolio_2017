@@ -19,12 +19,34 @@
     transition: all 300ms ease-in-out;
 }
 
+
+/* Reveal and Hide Styles in About Page - index.html */
+
+
 .toggle-btn-about-open{
     transform: rotate(90deg);
     transform-origin: 20%;
     transition: all 300ms ease-in-out;
 }
-
 .toggle-btn-about{
     transition: all 300ms ease-in-out;
+}
+
+.toggle-btn-about-text{
+    display: inline-block;
+}
+.toggle-btn-about-text:hover{
+    cursor: pointer;
+}
+.toggle-btn-about-text-hidden{
+    display: none;
+}
+.toggle-btn-about-text-2-hidden{
+    display: none;
+}
+.toggle-btn-about-text-2{
+    display: inline-block;
+}
+.toggle-btn-about-text-2:hover{
+    cursor: pointer;
 }

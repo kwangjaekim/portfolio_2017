@@ -1,9 +1,6 @@
 .portfolio-introduction-p{
     text-indent: 2rem;
 }
-
-.entire-column-container{
-}
 .column-container-50{
     width: 50%;
     float: left;
@@ -94,6 +91,7 @@ img.hover-tag-btmright{
     img.hover-tag-btmright{
         opacity: 1;
     }
+    
 }
 
 @media screen and (max-width: 450px) {
@@ -112,5 +110,4 @@ img.hover-tag-btmright{
     body.portfolio .page-section-60{
         padding-top: 20px;   
     }
-    
 }
