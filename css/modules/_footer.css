@@ -1,0 +1,13 @@
+.contact-info-footer{
+    line-height: 1.5rem;
+}
+
+.orange-background{
+    border-bottom: 3px solid #4884ff;
+    background-color: #f46139;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+}

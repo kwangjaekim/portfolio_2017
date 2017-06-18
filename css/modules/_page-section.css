@@ -25,6 +25,15 @@
 .bottom-padding-80{
     padding-bottom: 80px;
 }
+.bottom-padding-70{
+    padding-bottom: 70px;
+}
+.bottom-padding-60{
+    padding-bottom: 60px;
+}
+.bottom-padding-50{
+    padding-bottom: 50px;
+}
 .bottom-padding-30{
     padding-bottom: 30px;
 }
@@ -37,6 +46,9 @@
 }
 .bottom-padding-15{
     padding-bottom: 15px;
+}
+.bottom-padding-10{
+    padding-bottom: 10px;
 }
 
 /*--ALL PAGES under 520 PX --*/
